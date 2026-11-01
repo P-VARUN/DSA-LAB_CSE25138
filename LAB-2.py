@@ -1,4 +1,5 @@
 # 1) WAP to implement linear search
+print("CSE25138")
 def linear_search(arr, target):
     for i in range(len(arr)):
         if arr[i] == target:
@@ -10,6 +11,7 @@ target_val = 70
 print(linear_search(my_array, target_val))
 
 # 2) WAP to implement binary search with and without sorted array as an inputWith a sorted array as input:
+print("CSE25138")
 def binary_search_sorted(arr, target):
     low = 0
     high = len(arr) - 1
@@ -31,6 +33,7 @@ print(binary_search_sorted(sorted_array, target_val))
 
 
 # Without a sorted array as an input (sorts the array first before searching):
+print("CSE25138")
 def binary_search_unsorted(arr, target):
     arr.sort()
     
